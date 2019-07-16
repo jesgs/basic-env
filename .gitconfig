@@ -2,4 +2,4 @@
     name = jesgs
     email = 2304490+jesgs@users.noreply.github.com
 [core]
-	  excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global

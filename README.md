@@ -13,7 +13,7 @@ and Sublime Text user settings but can generally be used for any Unix environmen
   * Change npm global install directory to local directories (`.npmrc`)
   * Gulp (Optional)
 * PHP
-  * PsySH (https://github.com/bobthecow/psysh) `composer global require psy/psysh`
+  * [PsySH](https://github.com/bobthecow/psysh) `composer global require psy/psysh`
   * Symfony VarDumper
 * Virtualbox
 * Vagrant

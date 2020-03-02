@@ -4,9 +4,11 @@
     "font_face": "",
     "font_size": 18,
 
-    "line_padding_top": 1.5,
-    "line_padding_bottom": 1.5,
+    "line_padding_top": 3, // I like lots of space around my lines
+    "line_padding_bottom": 3,
 
     // Set to true to insert spaces when tab is pressed
     "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "ensure_newline_at_eof_on_save": true,        
 }

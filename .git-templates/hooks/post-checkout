@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Sometimes, classes are added or removed when branches are changed
+# composer dump-autoload --optimize 

@@ -15,12 +15,12 @@ fi
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+# Composer autocomplete
 # Installed via: https://github.com/bramus/composer-autocomplete
 [ -f $HOME/.composer/composer-autocomplete ] && . $HOME/.composer/composer-autocomplete
 
 #
 # Installed via brew install rbenv
-
 if [ -f "/usr/local/bin/rbenv" ]; then
     eval "$(rbenv init -)"
 fi

@@ -1,3 +1,4 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
 export PATH="$PATH:~/.composer/vendor/bin:~/.bin:~/.rbenv/bin:~/.rbenv/shims:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 export XDEBUG_CONFIG="idekey=phpstorm_debug"
 
@@ -13,6 +14,9 @@ if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
 fi
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# Installed via: https://github.com/bramus/composer-autocomplete
+[ -f $HOME/.composer/composer-autocomplete ] && . $HOME/.composer/composer-autocomplete
 
 #
 # Installed via brew install rbenv

@@ -1,4 +1,4 @@
-export BASH_SILENCE_DEPRECATION_WARNING=1
+export BASH_SILENCE_DEPRECATION_WARNING=1 # Tell Catalina to shut up about using Bash—I'll switch when I have to
 export PATH="$PATH:~/.composer/vendor/bin:~/.bin:~/.rbenv/bin:~/.rbenv/shims:/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 export XDEBUG_CONFIG="idekey=phpstorm_debug"
 

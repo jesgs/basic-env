@@ -1,4 +1,16 @@
-alias la="ls -la"
-alias copypwd="pwd | pbcopy" # Useful if I can remember the stupid alias
-alias mergesql="cat *.sql > dump.sql" # Takes a bunch of small SQL files in a directory and batch them
-alias homestead-init="composer require laravel/homestead" # Once again, useful alias if it can be remembered
+alias autodump='composer dump-autoload --optimize'
+alias ci='composer install -o'
+alias clean='phpcbf --filter=gitmodified'
+alias cwd='pwd | pbcopy'
+alias homestead-init='composer require laravel/homestead'
+alias install='composer install -o'
+alias la='ls -la'
+alias mcsv='cat *.csv > dump.csv'
+alias msql='cat *.sql > dump.sql'
+alias phing='./vendor/bin/phing'
+alias phpcbf='./vendor/bin/phpcbf'
+alias phpcs='./vendor/bin/phpcs'
+alias reload='source ~/.profile'
+alias yb='yarn build'
+alias yib='yarn && yarn build'
+alias yr='rm -rf node_modules/ build/ && yib'

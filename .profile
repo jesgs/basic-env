@@ -29,3 +29,22 @@ fi
 # Installed via brew install nvm
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
+
+# set node version on terminal open
+# todo: move to function
+if [ -f "$HOME/.nvmrc" ]; then
+    declare cwd;
+    declare nvmrc_ver;
+    declare default_node_ver;
+
+    cwd="$PWD";
+    cd "$HOME";
+    default_node_ver=$(node --version);
+    nvmrc_ver=$(cat .nvmrc);
+
+    
+    if [ default_node_ver != nvmrc_ver ]; then
+        nvm use $(cat .nvmrc);
+    fi
+    cd $cwd;
+fi

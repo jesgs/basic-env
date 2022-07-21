@@ -1,3 +1,2 @@
 #!/bin/sh
-phpcs .
-phpcbf .
+./vendor/bin/phpcs .

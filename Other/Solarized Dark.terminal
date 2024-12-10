@@ -149,17 +149,17 @@
 	<key>BackgroundAlphaInactive</key>
 	<real>1</real>
 	<key>BackgroundBlur</key>
-	<real>0.5</real>
+	<real>0.0</real>
 	<key>BackgroundBlurInactive</key>
 	<real>0.20000000000000001</real>
 	<key>BackgroundColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
-	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAoMC4wMTU5MjQ0MDUzMSAwLjEyNjUyMDkx
-	NjggMC4xNTk2OTYwMTI3ABABgALSFBUWF1okY2xhc3NuYW1lWCRjbGFzc2VzV05TQ29s
-	b3KiFhhYTlNPYmplY3QIERokKTI3SUxRU1ddZGp3fqmrrbK9xs7RAAAAAAAAAQEAAAAA
-	AAAAGQAAAAAAAAAAAAAAAAAAANo=
+	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxA1MC4wMTU5MjQ0MDUzMSAwLjEyNjUyMDkx
+	NjggMC4xNTk2OTYwMTI3IDAuODc4OTUwMTQwNAAQAYAC0hQVFhdaJGNsYXNzbmFtZVgk
+	Y2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRqd362uLq/ytPb
+	3gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADn
 	</data>
 	<key>BackgroundSettingsForInactiveWindows</key>
 	<true/>
@@ -182,7 +182,7 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
-	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAJgAAAAAAABAQgAKAA15TRk1v
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNAMgAAAAAAABAQgAKAA15TRk1v
 	bm8tUmVndWxhctIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250ohkbWE5TT2Jq
 	ZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKOos7zDxgAAAAAAAAEBAAAAAAAAABwAAAAA
 	AAAAAAAAAAAAAADP
@@ -228,6 +228,8 @@
 	<true/>
 	<key>name</key>
 	<string>Solarized Dark</string>
+	<key>shellExitAction</key>
+	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 </dict>

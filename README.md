@@ -17,7 +17,6 @@ Some settings are geared towards a MacOS environment like KeyBindings (I prefer 
   * [Laravel Valet](https://laravel.com/docs/11.x/valet#introduction) `composer global require laravel/valet`
   * [Symfony VarDumper](https://symfony.com/doc/current/components/var_dumper.html) `composer require --dev symfony/var-dumper` (installed per project)
 * Laravel Homestead
-Note: if using in place of Laravel Valet
   * Virtualbox
   * Vagrant
 

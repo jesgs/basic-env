@@ -9,7 +9,7 @@ Some settings are geared towards a MacOS environment like KeyBindings (I prefer 
   * [Magic Monty's Git Prompt](https://github.com/magicmonty/bash-git-prompt)
   * [Git Autocompletion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
   * WP-CLI `brew install wp-cli`
-* [NodeJS](https://nodejs.org/en/)
+* [NodeJS](https://nodejs.org/en/) (`brew install node` — if not available for whatever reason)
   * Change npm global install directory to local directories (`.npmrc`)
   * Gulp (Optional)
 * PHP

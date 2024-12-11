@@ -8,12 +8,14 @@ GIT_PROMPT_START_USER="_LAST_COMMAND_INDICATOR_ ${Yellow}\W${ResetColor}"
 
 #
 # install via brew install bash-git-prompt
-if [ -f "/usr/local/opt/bash-git-prompt/share/gitprompt.sh" ]; then
-    __GIT_PROMPT_DIR="/usr/local/opt/bash-git-prompt/share"
-    source "/usr/local/opt/bash-git-prompt/share/gitprompt.sh"
+if [ -f "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+    __GIT_PROMPT_DIR="/opt/homebrew/opt/bash-git-prompt/share"
+    source "/opt/homebrew/opt/bash-git-prompt/share/gitprompt.sh"
 fi
 
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+#
+# install via brew install bash-completion
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
 
 # Composer autocomplete
 # Installed via: https://github.com/bramus/composer-autocomplete
@@ -21,7 +23,7 @@ fi
 
 #
 # Installed via brew install rbenv
-if [ -f "/usr/local/bin/rbenv" ]; then
+if [ -f "/opt/homebrew/bin/rbenv" ]; then
     eval "$(rbenv init -)"
 fi
 

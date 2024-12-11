@@ -1,7 +1,6 @@
 # Jess' Basic BASH environment/Dev Tools/Setup/Whatever
 
-Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys)
-and Sublime Text user settings but can generally be used for any Unix environment.
+Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys) and Sublime Text user settings but can generally be used for any Unix environment. `Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal (original: https://github.com/tomislav/osx-terminal.app-colors-solarized)
 
 ### Tools to install:
 * [Homebrew](https://brew.sh)

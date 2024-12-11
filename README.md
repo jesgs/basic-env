@@ -14,7 +14,8 @@ Some settings are geared towards a MacOS environment like KeyBindings (I prefer 
   * Gulp (Optional)
 * PHP
   * [PsySH](https://github.com/bobthecow/psysh) `composer global require psy/psysh`
-  * Symfony VarDumper
+  * [Laravel Valet](https://laravel.com/docs/11.x/valet#introduction) `composer global require laravel/valet`
+  * [Symfony VarDumper](https://symfony.com/doc/current/components/var_dumper.html) `composer require --dev symfony/var-dumper` (installed per project)
 * Laravel Homestead
   * Virtualbox
   * Vagrant

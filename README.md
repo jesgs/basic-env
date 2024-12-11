@@ -15,6 +15,14 @@ and Sublime Text user settings but can generally be used for any Unix environmen
 * PHP
   * [PsySH](https://github.com/bobthecow/psysh) `composer global require psy/psysh`
   * Symfony VarDumper
-* Virtualbox
-* Vagrant
 * Laravel Homestead
+  * Virtualbox
+  * Vagrant
+* Laravel Valet
+
+### Useful Sites:
+* [Epoch Converter](https://www.epochconverter.com/)
+* [JSON Formatter](https://jsonformatter.org/)
+* [Diffchecker](https://www.diffchecker.com/)
+* [Regex 101](https://regex101.com/)
+* [Can I Use?](https://caniuse.com/)

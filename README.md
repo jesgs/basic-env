@@ -1,14 +1,18 @@
-# Jess' Basic BASH environment/Dev Tools/Setup/Whatever
+# Jess' Basic BASH environment for MacOS
 
-Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys) and Sublime Text user settings but can generally be used for any Unix environment. `Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal (original: https://github.com/tomislav/osx-terminal.app-colors-solarized)
+Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys) and Sublime Text user settings but can generally be used for any Unix environment. 
+
+`Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal (original: https://github.com/tomislav/osx-terminal.app-colors-solarized).
+
+The paths in `.profile` are intended to match Homebrew installations on Apple Silicon. These can be adjusted for Linux or Windows (maybe CygWin or other Linux emulators on Windows) systems as needed. Of course, `.profile` itself might be different depending on the system.
 
 ### Tools to install:
-* [Homebrew](https://brew.sh)
-  * [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm)
-  * [Rbenv](https://github.com/rbenv/rbenv)
-  * [Magic Monty's Git Prompt](https://github.com/magicmonty/bash-git-prompt)
-  * [Git Autocompletion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
-  * WP-CLI `brew install wp-cli`
+* [Homebrew](https://brew.sh) (if you're using MacOS)
+* [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm)
+* [Rbenv](https://github.com/rbenv/rbenv)
+* [Magic Monty's Git Prompt](https://github.com/magicmonty/bash-git-prompt)
+* [Git Autocompletion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
+* WP-CLI `brew install wp-cli`
 * [NodeJS](https://nodejs.org/en/) (`brew install node` — if not available for whatever reason)
   * Change npm global install directory to local directories (`.npmrc`)
   * Gulp (Optional)

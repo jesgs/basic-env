@@ -1,8 +1,12 @@
 # Jess' Basic BASH environment for MacOS
 
-Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys) and Sublime Text user settings but can generally be used for any Unix environment. 
+Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys). 
+
+Sublime Text user settings adjusts font size and spacing for easier readability, and includes changing tabs to spaces, though this can be disabled if it interferes with project requirements. 
 
 `Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal that includes adjustments to window opacity and increased font-size, but you can download the original [here](https://github.com/tomislav/osx-terminal.app-colors-solarized).
+
+The .ssh config file is more of a suggestion than a requirement. Actually, all of this repo is a suggestion ;-)
 
 The paths in `.profile` are intended to match Homebrew installations on Apple Silicon. These can be adjusted for Linux or Windows (maybe CygWin or other Linux emulators on Windows) systems as needed. Of course, `.profile` itself might be different depending on the system.
 

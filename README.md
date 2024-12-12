@@ -2,7 +2,7 @@
 
 Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys) and Sublime Text user settings but can generally be used for any Unix environment. 
 
-`Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal (original: https://github.com/tomislav/osx-terminal.app-colors-solarized).
+`Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal that includes adjustments to window opacity and increased font-size, but you can download the original [here](https://github.com/tomislav/osx-terminal.app-colors-solarized).
 
 The paths in `.profile` are intended to match Homebrew installations on Apple Silicon. These can be adjusted for Linux or Windows (maybe CygWin or other Linux emulators on Windows) systems as needed. Of course, `.profile` itself might be different depending on the system.
 

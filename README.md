@@ -28,9 +28,15 @@ The paths in `.profile` are intended to match Homebrew installations on Apple Si
   * Virtualbox
   * Vagrant
 
-### Useful Sites:
-* [Epoch Converter](https://www.epochconverter.com/)
-* [JSON Formatter](https://jsonformatter.org/)
-* [Diffchecker](https://www.diffchecker.com/)
-* [Regex 101](https://regex101.com/)
-* [Can I Use?](https://caniuse.com/)
+### Useful Pages:
+* [Epoch Converter](https://www.epochconverter.com/) Because time is hard.
+* [JSON Formatter](https://jsonformatter.org/) Useful for being able to see what's in that massive JSON dump.
+* [Diffchecker](https://www.diffchecker.com/) Does what it says. For those of us too lazy to pop open the command-line.
+* [Regex 101](https://regex101.com/) The Regex Sandbox of Sorcery
+* [Can I Use?](https://caniuse.com/) No, sorry. You can't use this brand shiny new thing in Internet Explorer 9, no matter how much you want.
+* [CSS to Tailwind Converter](https://www.loopple.com/tools/css-to-tailwind-converter) I despise TailwindCSS with a passion that's almost holy but this is a useful tool.
+* [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) Because hell if I can remember all the steps.
+* [WordPress Constants](https://wp-kama.com/1588/wordpress-constants) Because there's a lot of them and you can never remember the syntax properly.
+
+### Useful Command-line Stuff
+* Reset WordPress user password without sending email: `wp user reset-password [user] --skip-email --show-password`

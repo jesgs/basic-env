@@ -1,11 +1,12 @@
+alias artisan='php artisan' # todo: turn into a bash script that checks for Laravel install
 alias autodump='composer dump-autoload --optimize'
 alias ci='composer install -o'
 alias clean='phpcbf --filter=gitmodified'
 alias cwd='pwd | pbcopy'
 alias gph='git push --set-upstream origin HEAD'
 alias gp='git push'
-alias homestead-init='composer require laravel/homestead'
 alias homestead='./vendor/bin/homestead'
+alias homestead-init='composer require laravel/homestead'
 alias install='composer install -o'
 alias la='ls -la'
 alias mcsv='cat *.csv > dump.csv'

@@ -3,6 +3,7 @@ export PATH="$PATH:~/.composer/vendor/bin:~/.bin:~/.rbenv/bin:~/.rbenv/shims:/Ap
 export XDEBUG_CONFIG="idekey=phpstorm_debug"
 
 source ~/.aliases.bash
+source ~/.artisan_autocomplete.bash
 
 GIT_PROMPT_START_USER="_LAST_COMMAND_INDICATOR_ ${Yellow}\W${ResetColor}"
 

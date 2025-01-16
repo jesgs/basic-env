@@ -1,4 +1,4 @@
-# Jess' Basic BASH environment for MacOS
+# Jess' Basic BASH environment for ~~MacOS~~ Any *Nix Environment (with some tweaking)
 
 Some settings are geared towards a MacOS environment like KeyBindings (I prefer Windows/Unix binding for the home/end keys). 
 

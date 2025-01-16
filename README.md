@@ -6,7 +6,7 @@ Sublime Text user settings adjusts font size and spacing for easier readability,
 
 `Other` contains extra files, like a modified version of the Solarized Dark theme for MacOS terminal that includes adjustments to window opacity and increased font-size, but you can download the original [here](https://github.com/tomislav/osx-terminal.app-colors-solarized).
 
-The .ssh config file is more of a suggestion than a requirement. Actually, all of this repo is a suggestion ;-)
+The .ssh config file is more of a suggestion than a requirement. Actually, all of this repo is a suggestion 😜
 
 The paths in `.profile` are intended to match Homebrew installations on Apple Silicon. These can be adjusted for Linux or Windows (maybe CygWin or other Linux emulators on Windows) systems as needed. Of course, `.profile` itself might be different depending on the system. A better explanation of the differences between `.profile`, `.bash_profile`, and other user-specific shell configs can be found [here](https://unix.stackexchange.com/questions/45684/what-is-the-difference-between-profile-and-bash-profile)
 
@@ -16,6 +16,7 @@ The paths in `.profile` are intended to match Homebrew installations on Apple Si
 * [Rbenv](https://github.com/rbenv/rbenv)
 * [Magic Monty's Git Prompt](https://github.com/magicmonty/bash-git-prompt)
 * [Git Autocompletion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
+* [Laravel Artisan Autocompletion](https://gist.github.com/jhoff/8fbe4116d74931751ecc9e8203dfb7c4)
 * WP-CLI `brew install wp-cli`
 * [NodeJS](https://nodejs.org/en/) (`brew install node` — if not available for whatever reason)
   * Change npm global install directory to local directories (`.npmrc`)

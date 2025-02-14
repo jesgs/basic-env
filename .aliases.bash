@@ -1,4 +1,4 @@
-alias artisan='php artisan' # todo: turn into a bash script that checks for Laravel install
+alias artisan='php artisan'
 alias autodump='composer dump-autoload --optimize'
 alias ci='composer install -o'
 alias clean='phpcbf --filter=gitmodified'
@@ -21,3 +21,6 @@ alias yr='rm -rf node_modules/ build/ && yib'
 alias sail='./vendor/bin/sail'
 alias pest='./vendor/bin/pest'
 alias duster='./vendor/bin/duster'
+alias pint='./vendor/bin/pint'
+alias ptest='./vendor/bin/pint --test'
+alias ssh-copy='cat ~/.ssh/id_ed25519.pub | pbcopy'

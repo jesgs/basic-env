@@ -1,4 +1,5 @@
-# .artisan_autocomplete.bash
+# Autocomplete for Laravel Artisan, assuming that you have alias artisan='php artisan' somewhere in your environment
+# idk where I found this, just thought it was useful
 _artisan()
 {
     COMP_WORDBREAKS=${COMP_WORDBREAKS//:}

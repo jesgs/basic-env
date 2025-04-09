@@ -41,3 +41,4 @@ The paths in `.profile` are intended to match Homebrew installations on Apple Si
 
 ### Useful Command-line Stuff
 * Reset WordPress user password without sending email: `wp user reset-password [user] --skip-email --show-password`
+* Create WordPress user account: `wp user create <username> <user-email> --role=administrator --send-email`

@@ -39,6 +39,7 @@ The paths in `.profile` are intended to match Homebrew installations on Apple Si
 * [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) Because hell if I can remember all the steps.
 * [WordPress Constants](https://wp-kama.com/1588/wordpress-constants) Because there's a lot of them—good luck remembering how they're spelled.
 * [Writing Markdown in VIM](https://codeinthehole.com/tips/writing-markdown-in-vim/)
+* [Vim Plug—Plugin Package Manager](https://github.com/junegunn/vim-plug)
 
 ### Useful Command-line Stuff
 * Reset WordPress user password without sending email: `wp user reset-password [user] --skip-email --show-password`
